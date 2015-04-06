@@ -7,5 +7,6 @@
   "bitmarket_pl": "\\Account\\Wallet\\BitMarketPl",
   "bitnz": "\\Account\\Wallet\\BitNZ",
   "bittrex": "\\Account\\Wallet\\Bittrex",
+  "btce": "\\Account\\Wallet\\BTCe",
   "btclevels": "\\Account\\Wallet\\BTCLevels"
 }
