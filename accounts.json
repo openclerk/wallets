@@ -2,5 +2,7 @@
   "anxpro": "\\Account\\Wallet\\Anxpro",
   "bips": "\\Account\\Wallet\\Bips",
   "bit2c": "\\Account\\Wallet\\Bit2c",
+  "bitcurex_pln": "\\Account\\Wallet\\BitcurexPLN",
+  "bitcurex_eur": "\\Account\\Wallet\\BitcurexEUR",
   "bitnz": "\\Account\\Wallet\\BitNZ"
 }
