@@ -38,7 +38,7 @@ class Bit2c extends AbstractWallet {
       ),
       'api_secret' => array(
         'title' => "API Secret",
-        'regexp' => "#^[A-Za-z0-9/\\+=]{36,}$#",
+        'regexp' => "#^[A-Z0-9]{64}$#",
       ),
     );
   }
