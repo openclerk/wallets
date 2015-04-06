@@ -14,7 +14,6 @@ use \Openclerk\Currencies\CurrencyFactory;
 
 /**
  * Represents the Bit2c exchange wallet.
- * Just returns hashrates, does not return balances (this is provided with CEX.io)
  */
 class Bit2c extends AbstractWallet {
 
