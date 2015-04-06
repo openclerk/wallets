@@ -51,6 +51,7 @@ class Bittrex extends AbstractWallet {
     switch (strtoupper($str)) {
       // exceptions
       case "DOGE": return "dog";
+      case "BLK": return "bc1";
 
       // otherwise return lowercase
       default:
