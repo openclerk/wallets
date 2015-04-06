@@ -86,7 +86,7 @@ class ANXPRO extends AbstractWallet {
       $logger->info($post_data['post_data']);
       $raw = Fetch::post($url, $post_data['post_data'], array(), $post_data['headers']);
     } catch (FetchHttpException $e) {
-      throw new AccountFetchException($e->getContent(), $e);
+      throw new AccountFetchException($e->getMessage(), $e);
     }
 
     $json = Fetch::jsonDecode($raw);
