@@ -1,0 +1,21 @@
+{
+  "name": "openclerk/wallets",
+  "description": "Definitions and implementations of cryptocurrency wallets in Openclerk",
+  "autoload": {
+    "psr-4": {
+      "Account\\Wallet\\": "src",
+      "Account\\Wallet\\Tests\\": "test"
+    }
+  },
+  "require": {
+    "openclerk/accounts": "dev-master",
+    "openclerk/apis": "dev-master",
+    "openclerk/config": "dev-master",
+    "openclerk/currencies": "dev-master",
+    "monolog/monolog": "~1.11"
+  },
+  "require-dev": {
+    "soundasleep/component-tests": "dev-master",
+    "openclerk/cryptocurrencies": "dev-master"
+  }
+}
