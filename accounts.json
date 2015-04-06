@@ -6,5 +6,6 @@
   "bitcurex_eur": "\\Account\\Wallet\\BitcurexEUR",
   "bitmarket_pl": "\\Account\\Wallet\\BitMarketPl",
   "bitnz": "\\Account\\Wallet\\BitNZ",
+  "bittrex": "\\Account\\Wallet\\Bittrex",
   "btclevels": "\\Account\\Wallet\\BTCLevels"
 }

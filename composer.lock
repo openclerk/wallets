@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7cb452f67485dcfb80904ce0cd86605f",
+    "hash": "379b2de2f1c173cf6894872cde801703",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -85,12 +85,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/openclerk/accounts.git",
-                "reference": "ca6cc4eb513cacd65c78f70815688cdd1cef39d3"
+                "reference": "5ea0eb1107e1cfe87d5bc5512296371a5fd20c81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openclerk/accounts/zipball/ca6cc4eb513cacd65c78f70815688cdd1cef39d3",
-                "reference": "ca6cc4eb513cacd65c78f70815688cdd1cef39d3",
+                "url": "https://api.github.com/repos/openclerk/accounts/zipball/5ea0eb1107e1cfe87d5bc5512296371a5fd20c81",
+                "reference": "5ea0eb1107e1cfe87d5bc5512296371a5fd20c81",
                 "shasum": ""
             },
             "require": {
@@ -109,7 +109,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Definitions and implementations of accounts in Openclerk",
-            "time": "2015-04-02 00:30:02"
+            "time": "2015-04-06 05:07:44"
         },
         {
             "name": "openclerk/apis",
@@ -117,12 +117,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/openclerk/apis.git",
-                "reference": "e725867dcb5702002e24c0abd78d26722872c468"
+                "reference": "2cc3f2a44a6f9cf03471caaea877bc911fec75e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openclerk/apis/zipball/e725867dcb5702002e24c0abd78d26722872c468",
-                "reference": "e725867dcb5702002e24c0abd78d26722872c468",
+                "url": "https://api.github.com/repos/openclerk/apis/zipball/2cc3f2a44a6f9cf03471caaea877bc911fec75e1",
+                "reference": "2cc3f2a44a6f9cf03471caaea877bc911fec75e1",
                 "shasum": ""
             },
             "require": {
@@ -142,7 +142,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "A library for defining and using APIs",
-            "time": "2015-03-19 03:55:55"
+            "time": "2015-04-06 06:28:14"
         },
         {
             "name": "openclerk/config",
