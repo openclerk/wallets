@@ -1,4 +1,5 @@
 {
   "anxpro": "\\Account\\Wallet\\Anxpro",
+  "bit2c": "\\Account\\Wallet\\Bit2c",
   "bitnz": "\\Account\\Wallet\\BitNZ"
 }
