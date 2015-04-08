@@ -35,19 +35,8 @@ abstract class AbstractWalletTest extends AbstractActiveAccountTest {
     }
   }
 
-  static $tested_codes = array();
-
-  function testUniqueCode() {
-    $code = $this->account->getCode();
-    $this->assertFalse(isset(self::$tested_codes[$code]), "We've already tested an account '$code'");
-    self::$tested_codes[$code] = $code;
-  }
-
-  function testCodeInAccountsJson() {
-    $json = json_decode(file_get_contents(__DIR__ . "/../accounts.json"), true /* assoc */);
-    $code = $this->account->getCode();
-    $this->assertTrue(isset($json[$code]), "Expected '$code' account in accounts.json");
-    $this->assertEquals("\\" . get_class($this->account), $json[$code], "Expected '$code' to return the same class");
+  function getAccountsJSON() {
+    return __DIR__ . "/../accounts.json";
   }
 
 }
