@@ -15,7 +15,7 @@ use \Openclerk\Currencies\CurrencyFactory;
 /**
  * Represents the ANXPRO exchange wallet.
  */
-class ANXPRO extends AbstractWallet {
+class Anxpro extends AbstractWallet {
 
   public function getName() {
     return "ANXPRO";
