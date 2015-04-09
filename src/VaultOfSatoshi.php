@@ -13,41 +13,41 @@ use \Apis\Fetch;
 use \Openclerk\Currencies\CurrencyFactory;
 
 /**
- * Represents the MtGox exchange wallet.
+ * Represents the VaultOfSatoshi exchange wallet.
  */
-class MtGox extends AbstractWallet implements DisabledAccount {
+class VaultOfSatoshi extends AbstractWallet implements DisabledAccount {
 
-  public function disabledAt() {
-    return "2014-11-07";
+  function disabledAt() {
+    return "2015-04-09";
   }
 
-  public function getName() {
-    return "Mt.Gox";
+  function getName() {
+    return "Vault of Satoshi";
   }
 
   function getCode() {
-    return "mtgox";
+    return "vaultofsatoshi";
   }
 
   function getURL() {
-    return "https://mtgox.com/";
+    return "https://www.vaultofsatoshi.com/";
   }
 
   public function getFields() {
     return array(
       'api_key' => array(
         'title' => "API Key",
-        'regexp' => '#^[a-z0-9\-]{36}$#',
+        'regexp' => '#^[a-f0-9]{64}$#',
       ),
       'api_secret' => array(
         'title' => "API Secret",
-        'regexp' => '#^[A-Za-z0-9/\\+=]{36,}$#',
+        'regexp' => '#^[a-f0-9]{64}$#',
       ),
     );
   }
 
   public function fetchSupportedCurrencies(CurrencyFactory $factory, Logger $logger) {
-    return array('usd', 'btc', 'eur', 'cad', 'cny', 'gbp', 'pln');
+    return array('cad', 'usd', 'btc', 'ltc', 'ppc', 'dog', 'ftc', 'xpm', 'vtc', 'bc1', 'drk');
   }
 
   /**
