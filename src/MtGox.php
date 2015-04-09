@@ -47,7 +47,7 @@ class MtGox extends AbstractWallet implements DisabledAccount {
   }
 
   public function fetchSupportedCurrencies(CurrencyFactory $factory, Logger $logger) {
-    throw new AccountFetchException("Cannot fetch supported currencies of a disabled account");
+    return aray('usd', 'btc', 'eur', 'cad', 'cny', 'gbp', 'pln');
   }
 
   /**

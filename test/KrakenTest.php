@@ -54,8 +54,7 @@ class KrakenTest extends AbstractWalletTest {
   }
 
   function doTestValidValues($balances) {
-    // this account has no balances
-    $this->assertArrayNotHasKey('btc', $balances);
+    $this->assertEquals(0.0001, $balances['btc']['confirmed']);
     $this->assertArrayNotHasKey('usd', $balances);
     $this->assertArrayNotHasKey('ltc', $balances);
     $this->assertArrayNotHasKey('dog', $balances);
