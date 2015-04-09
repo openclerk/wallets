@@ -13,24 +13,25 @@ use \Apis\Fetch;
 use \Openclerk\Currencies\CurrencyFactory;
 
 /**
- * Represents the ANXPRO exchange wallet.
+ * Represents the new Justcoin exchange wallet, hosted through ANX.
+ * This is necessary because there are new API key and secret formats (issue #468).
  */
-class Anxpro extends AbstractAnx {
+class JustcoinAnx extends AbstractAnx {
 
   public function getName() {
-    return "ANXPRO";
+    return "Justcoin";
   }
 
   public function getCode() {
-    return "anxpro";
+    return "justcoin_anx";
   }
 
   function getURL() {
-    return "https://anxpro.com/";
+    return "https://justcoin.com/";
   }
 
   function getBalanceURL() {
-    return "https://anxpro.com/api/2/money/info";
+    return "https://justcoin.com/api/2/money/info";
   }
 
 }
