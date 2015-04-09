@@ -15,5 +15,6 @@
   "cryptsy": "\\Account\\Wallet\\Cryptsy",
   "justcoin": "\\Account\\Wallet\\Justcoin",
   "justcoin_anx": "\\Account\\Wallet\\JustcoinAnx",
-  "kraken": "\\Account\\Wallet\\Kraken"
+  "kraken": "\\Account\\Wallet\\Kraken",
+  "mtgox": "\\Account\\Wallet\\MtGox"
 }
