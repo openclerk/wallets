@@ -11,5 +11,6 @@
   "btce": "\\Account\\Wallet\\BTCe",
   "btclevels": "\\Account\\Wallet\\BTCLevels",
   "cexio": "\\Account\\Wallet\\CEXio",
-  "crypto-trade": "\\Account\\Wallet\\CryptoTrade"
+  "crypto-trade": "\\Account\\Wallet\\CryptoTrade",
+  "cryptsy": "\\Account\\Wallet\\Cryptsy"
 }
