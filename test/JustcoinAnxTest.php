@@ -17,11 +17,6 @@ class JustcoinAnxTest extends AbstractWalletTest {
 
   function __construct() {
     parent::__construct(new \Account\Wallet\JustcoinAnx());
-
-    // public API key details for cryptsy API
-    \Openclerk\Config::overwrite(array(
-      "exchange_justcoin_key" => "3899bb67-b2fb-4827-a097-e394c1c728c1",
-    ));
   }
 
   /**
