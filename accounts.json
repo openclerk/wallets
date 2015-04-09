@@ -18,5 +18,6 @@
   "kraken": "\\Account\\Wallet\\Kraken",
   "mtgox": "\\Account\\Wallet\\MtGox",
   "poloniex": "\\Account\\Wallet\\Poloniex",
-  "vaultofsatoshi": "\\Account\\Wallet\\VaultOfSatoshi"
+  "vaultofsatoshi": "\\Account\\Wallet\\VaultOfSatoshi",
+  "vircurex": "\\Account\\Wallet\\Vircurex"
 }
