@@ -13,7 +13,7 @@ use Openclerk\Currencies\Currency;
 /**
  * Tests the {@link BitcurexEUR} account type.
  */
-class BitcurexEURTest extends AbstractAccountTest {
+class BitcurexEURTest extends AbstractDisabledWalletTest {
 
   function __construct() {
     parent::__construct(new \Account\Wallet\BitcurexEUR());

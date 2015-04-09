@@ -15,7 +15,7 @@ use \Openclerk\Currencies\CurrencyFactory;
 /**
  * Represents the BIPS exchange wallet.
  */
-class BIPS extends AbstractWallet implements DisabledAccount {
+class Bips extends AbstractWallet implements DisabledAccount {
 
   public function getName() {
     return "BIPS";

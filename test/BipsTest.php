@@ -13,7 +13,7 @@ use Openclerk\Currencies\Currency;
 /**
  * Tests the {@link Bips} account type.
  */
-class BipsTest extends AbstractAccountTest {
+class BipsTest extends AbstractDisabledWalletTest {
 
   function __construct() {
     parent::__construct(new \Account\Wallet\Bips());
